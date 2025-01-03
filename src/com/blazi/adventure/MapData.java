@@ -33,7 +33,7 @@ public class MapData {
         // K: Direction
         // V: neighbour name
         Scanner scanner = new Scanner(mapData);
-        Map<String,String> neighbours = new HashMap<>();
+        Map<String, String> neighbours = new HashMap<>();
         while (scanner.hasNext()) {
             String[] line = scanner.nextLine().split(",");
             if (line[0].equals(key)) {
